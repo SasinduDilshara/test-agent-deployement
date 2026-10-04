@@ -1,0 +1,152 @@
+{
+  "company": {
+    "name": "Lumora Systems",
+    "legal_name": "Lumora Systems (Private) Limited",
+    "registration_number": "PV-00248113",
+    "tax_identification_number": "TIN-114872093",
+    "founded": "2014-03-17",
+    "industry": "Enterprise Software",
+    "sub_industries": ["Cloud Integration", "API Management", "Data Platforms"],
+    "company_type": "Private Limited Company",
+    "tagline": "Connecting enterprise systems, simply.",
+    "mission": "To help organisations integrate their systems, data and people through secure, reliable and developer-friendly software.",
+    "vision": "A world where every enterprise system can talk to every other system in minutes, not months.",
+    "core_values": [
+      "Customer Obsession",
+      "Integrity First",
+      "Ownership",
+      "Learn and Share",
+      "Inclusive by Default"
+    ],
+    "website": "https://www.lumora-systems.example",
+    "fiscal_year": {
+      "start": "April 1",
+      "end": "March 31"
+    },
+    "default_currency": "LKR",
+    "official_language": "English"
+  },
+  "headquarters": {
+    "name": "Colombo Headquarters",
+    "address": {
+      "line1": "Level 12, Harbour View Tower",
+      "line2": "No. 45, Marine Drive",
+      "city": "Colombo 03",
+      "postal_code": "00300",
+      "country": "Sri Lanka"
+    },
+    "phone": "+94 11 255 0100",
+    "email": "info@lumora-systems.example",
+    "timezone": "Asia/Colombo"
+  },
+  "offices": [
+    {
+      "name": "Colombo Headquarters",
+      "city": "Colombo",
+      "country": "Sri Lanka",
+      "type": "Headquarters",
+      "opened": "2014-03-17",
+      "employees": 640,
+      "functions": ["Engineering", "Product", "Finance", "People & Culture", "Sales", "Customer Success"]
+    },
+    {
+      "name": "Kandy Engineering Centre",
+      "city": "Kandy",
+      "country": "Sri Lanka",
+      "type": "Engineering Centre",
+      "opened": "2019-08-01",
+      "employees": 180,
+      "functions": ["Engineering", "Quality Engineering", "Technical Support"]
+    },
+    {
+      "name": "Singapore Regional Office",
+      "city": "Singapore",
+      "country": "Singapore",
+      "type": "Regional Sales Office",
+      "opened": "2018-02-12",
+      "employees": 45,
+      "functions": ["Sales", "Solutions Architecture", "Partnerships"]
+    },
+    {
+      "name": "London Office",
+      "city": "London",
+      "country": "United Kingdom",
+      "type": "Regional Sales Office",
+      "opened": "2021-05-03",
+      "employees": 35,
+      "functions": ["Sales", "Marketing", "Customer Success"]
+    }
+  ],
+  "headcount": {
+    "total": 900,
+    "as_of": "2026-09-30",
+    "by_region": {
+      "Sri Lanka": 820,
+      "Singapore": 45,
+      "United Kingdom": 35
+    }
+  },
+  "leadership": [
+    { "name": "Dilani Perera", "title": "Chief Executive Officer", "since": "2014-03-17" },
+    { "name": "Ruwan Jayasuriya", "title": "Chief Technology Officer", "since": "2014-03-17" },
+    { "name": "Amaya Fernando", "title": "Chief Financial Officer", "since": "2020-01-06" },
+    { "name": "Kavindu Senanayake", "title": "Chief People Officer", "since": "2021-07-01" },
+    { "name": "Priya Raman", "title": "Chief Revenue Officer", "since": "2022-04-04" },
+    { "name": "Nimal Wickramasinghe", "title": "VP, Engineering", "since": "2018-10-15" }
+  ],
+  "departments": [
+    { "name": "Engineering", "head": "Nimal Wickramasinghe", "headcount": 420, "email": "engineering@lumora-systems.example" },
+    { "name": "Product Management", "head": "Shehani Gunawardena", "headcount": 40, "email": "product@lumora-systems.example" },
+    { "name": "Quality Engineering", "head": "Tharindu Rathnayake", "headcount": 90, "email": "qe@lumora-systems.example" },
+    { "name": "Sales", "head": "Priya Raman", "headcount": 85, "email": "sales@lumora-systems.example" },
+    { "name": "Marketing", "head": "Oliver Hughes", "headcount": 30, "email": "marketing@lumora-systems.example" },
+    { "name": "Customer Success", "head": "Nadeesha Silva", "headcount": 110, "email": "success@lumora-systems.example" },
+    { "name": "Finance", "head": "Amaya Fernando", "headcount": 30, "email": "finance@lumora-systems.example" },
+    { "name": "People & Culture", "head": "Kavindu Senanayake", "headcount": 25, "email": "people@lumora-systems.example" },
+    { "name": "IT & Security", "head": "Chamath Abeysekera", "headcount": 35, "email": "it@lumora-systems.example" },
+    { "name": "Legal & Compliance", "head": "Sanduni Karunaratne", "headcount": 10, "email": "legal@lumora-systems.example" },
+    { "name": "Facilities & Administration", "head": "Lasantha Herath", "headcount": 25, "email": "facilities@lumora-systems.example" }
+  ],
+  "products": [
+    {
+      "name": "Lumora Integrator",
+      "category": "Integration Platform (iPaaS)",
+      "launched": "2016",
+      "description": "Low-code integration platform for connecting SaaS, on-premise and legacy systems."
+    },
+    {
+      "name": "Lumora Gateway",
+      "category": "API Management",
+      "launched": "2018",
+      "description": "API gateway and developer portal with rate limiting, analytics and security policies."
+    },
+    {
+      "name": "Lumora DataFlow",
+      "category": "Data Platform",
+      "launched": "2022",
+      "description": "Streaming data pipelines and change-data-capture for analytics and AI workloads."
+    }
+  ],
+  "certifications": [
+    "ISO/IEC 27001:2022",
+    "SOC 2 Type II",
+    "Great Place to Work Certified (2025)"
+  ],
+  "key_contacts": {
+    "general_inquiries": "info@lumora-systems.example",
+    "people_and_culture": "people@lumora-systems.example",
+    "it_helpdesk": "helpdesk@lumora-systems.example",
+    "finance_and_payroll": "payroll@lumora-systems.example",
+    "ethics_hotline": "ethics@lumora-systems.example",
+    "media": "press@lumora-systems.example"
+  },
+  "working_calendar": {
+    "standard_work_week": "Monday to Friday",
+    "core_hours": "10:00 to 15:00 local time",
+    "headquarters_timezone": "Asia/Colombo"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/lumora-systems-example",
+    "github": "https://github.com/lumora-systems-example"
+  }
+}

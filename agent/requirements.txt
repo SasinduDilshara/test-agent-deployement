@@ -1,0 +1,17 @@
+# Shared ingestion/query library (chunking, embeddings, Pinecone store) from the sibling project.
+# The agent reuses it so that documents updated by the agent are chunked exactly like the batch ingestion.
+-e ../rag-ingestion
+
+langgraph>=1.0,<2
+langchain-core>=1.0,<2
+langchain-openai>=1.0,<2
+openai>=1.40
+pinecone>=10.0.0,<11
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+
+# Testing
+pytest>=8.0
+httpx>=0.27

@@ -1,0 +1,2 @@
+# Installs this project (and its dependencies from pyproject.toml) in editable mode.
+-e .[dev]
