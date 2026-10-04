@@ -16,7 +16,7 @@ from app.services import Services
 from app.updater import DocumentUpdateService
 from hr_rag_ingestion import IngestionPipeline, SearchResult
 
-DOCS_ROOT = Path(__file__).resolve().parents[2] / "docs"
+DOCS_ROOT = Path(__file__).resolve().parents[1] / "docs"
 
 
 class FakeEmbedder:

@@ -1,6 +1,6 @@
 # HR RAG Ingestion
 
-This project loads the HR Markdown documents from `../docs/hr`, chunks them by structure, embeds them with OpenAI `text-embedding-3-small` (1536 dimensions), and upserts them into a Pinecone serverless index. It also includes the **query** code used for retrieval, which the agent reuses as a library.
+This project loads the HR Markdown documents from `../agent/docs/hr` (bundled with the agent), chunks them by structure, embeds them with OpenAI `text-embedding-3-small` (1536 dimensions), and upserts them into a Pinecone serverless index. It also includes the **query** code used for retrieval, which the agent reuses as a library.
 
 ## Setup
 

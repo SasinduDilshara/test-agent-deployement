@@ -28,7 +28,7 @@ class IngestionSettings(BaseSettings):
     pinecone_region: str = "us-east-1"
     pinecone_metric: str = "cosine"
 
-    docs_dir: Path = Path("../docs/hr")
+    docs_dir: Path = Path("../agent/docs/hr")
     chunk_size: int = Field(default=1200, gt=100)
     chunk_overlap: int = Field(default=150, ge=0)
 

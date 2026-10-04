@@ -14,7 +14,7 @@ from hr_rag_ingestion import (
 from hr_rag_ingestion.documents import get_section, list_section_titles
 from hr_rag_ingestion.vector_store import _clean_metadata
 
-DOCS_DIR = Path(__file__).resolve().parents[2] / "docs" / "hr"
+DOCS_DIR = Path(__file__).resolve().parents[2] / "agent" / "docs" / "hr"
 
 SAMPLE = """---
 doc_id: sample-policy

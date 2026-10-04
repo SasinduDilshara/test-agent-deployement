@@ -34,8 +34,8 @@ class Settings(BaseSettings):
     pinecone_verify_write_access: bool = True
 
     # Documents
-    hr_docs_dir: Path = Path("../docs/hr")
-    company_profile_path: Path = Path("../docs/company/company_profile.json")
+    hr_docs_dir: Path = Path("docs/hr")  # bundled with the agent
+    company_profile_path: Path = Path("docs/company/company_profile.json")
     chunk_size: int = Field(default=1200, gt=100)
     chunk_overlap: int = Field(default=150, ge=0)
     audit_log_path: Path = Path("./logs/document_updates.jsonl")

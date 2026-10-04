@@ -4,22 +4,22 @@ An HR assistant built with **LangGraph** that uses **agentic RAG** over HR polic
 
 ```
 hr-agent/
-├── docs/            # 1. Source documents
-│   ├── hr/          #    10 HR policy documents (Markdown + YAML front matter)
-│   └── company/     #    company_profile.json – company metadata (not HR policy)
-├── rag-ingestion/   # 2. RAG ingestion + query project (chunk → embed → Pinecone), CLI: hr-ingest
-└── agent/           # 3. LangGraph agentic-RAG HR agent exposed as a FastAPI REST API
+├── agent/               # LangGraph agentic-RAG HR agent exposed as a FastAPI REST API
+│   └── docs/            # Source documents bundled with the agent (used by default, no paths to configure)
+│       ├── hr/          #   10 HR policy documents (Markdown + YAML front matter)
+│       └── company/     #   company_profile.json – company metadata (not HR policy)
+└── rag-ingestion/       # RAG ingestion + query project (chunk → embed → Pinecone), CLI: hr-ingest
 ```
 
 ## How the pieces fit
 
 ```
-docs/hr/*.md ──► rag-ingestion ──(OpenAI embeddings)──► Pinecone index / namespace
+agent/docs/hr/*.md ──► rag-ingestion (OpenAI embeddings)──► Pinecone index / namespace
                                                               ▲   │
                                        search (read key)      │   │ upsert (write key, only if allowed)
                                                               │   ▼
-REST client ──► agent (FastAPI) ──► LangGraph agentic RAG ──► tools ──► docs/hr/*.md (write-back)
-                                                              └──► docs/company/company_profile.json
+REST client ──► agent (FastAPI) ──► LangGraph agentic RAG ──► tools ──► agent/docs/hr/*.md (write-back)
+                                                              └──► agent/docs/company/company_profile.json
 ```
 
 The agent installs `rag-ingestion` as a library. When the agent updates a document, it is chunked, embedded and indexed with **exactly the same code** as the batch ingestion.
